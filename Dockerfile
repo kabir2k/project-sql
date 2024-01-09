@@ -1,7 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="kesaralive@gmail.com"
-LABEL description="Apache / PHP development environment"
+
 
 ARG DEBIAN_FRONTEND=newt
 RUN apt-get update && apt-get install -y lsb-release && apt-get clean all
